@@ -84,9 +84,8 @@ export default async function Productdetails({ params }: { params: Params }) {
                         </div>
                         <div className="flex gap-2">
                             <Cartbutton productId={product._id}
-                                initialCartIds={[]}
-                                token={token} />
-                            <FavsButton productId={product._id} initialFavIds={favIds || []} token={token} />
+                                initialCartIds={[]} />
+                            <FavsButton productId={product._id} initialFavIds={favIds || []} />
 
 
                         </div>
